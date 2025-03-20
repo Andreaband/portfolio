@@ -5,6 +5,8 @@ import { SKILLS } from "@/data/skills";
 import Chip from "@/componens/Chip";
 import { PROJECTS } from "@/data/projects";
 import Card from "@/componens/Card";
+import { WORKFLOW } from "@/data/workflow";
+import Slide from "@/componens/Slide";
 
 export default function Home() {
   return (
@@ -74,6 +76,17 @@ advancing my career in web development.
                 <Card key={index} title={project.title} description={project.description} image={project.image} link={project.link} />
               ))
             }
+          </div>
+        </div>
+      </section>
+      {/* Workflow */}
+      <section id="workflow" className="flex flex-col justify-center items-center space-y-6 pb-24 lg:pb-48">
+        <div className="space-y-6">
+          <h2 className="font-title text-center text-4xl">My workflow 🛠️</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {WORKFLOW.map((slide, index) => (
+              <Slide key={index} title={slide.title} description={slide.description} />
+            ))}
           </div>
         </div>
       </section>
