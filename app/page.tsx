@@ -90,6 +90,10 @@ advancing my career in web development.
           </div>
         </div>
       </section>
+      { /* Footer */}
+      <footer id="contatti" className="flex flex-col justify-center items-center pt-40 pb-4 text-foreground-muted">
+        <p>© {new Date().getFullYear()} Andrea Banducci. All rights reserved.</p>
+      </footer>
     </main>
   );
 }

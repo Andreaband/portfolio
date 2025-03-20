@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { IBM_Plex_Sans_Condensed, IBM_Plex_Sans } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/componens/Navbar";
 
 const ibm_sans = IBM_Plex_Sans({
   subsets: ['latin'],
@@ -28,6 +29,7 @@ export default function RootLayout({
       <body
           className={`${ibm_sans.variable} ${ibm_sans_condensed.variable} antialiased`}
       >
+        <Navbar />
         {children}
       </body>
     </html>
