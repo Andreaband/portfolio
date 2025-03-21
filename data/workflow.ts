@@ -4,17 +4,17 @@ interface IWorkflow {
   description: string;
 }
 
-export const WORKFLOW: IWorkflow[] = [
+export const WORKFLOW = [
   {
     title: "1. Planning & Design",
-    description: "Inizio comprendendo i requisiti del progetto e creando wireframe e disegni dettagliati.",
+    description: "I start by understanding the project requirements and creating wireframes and detailed designs.",
   },
   {
     title: "2. Development",
-    description: "Costruisco l'applicazione utilizzando le ultime tecnologie e le migliori pratiche nello sviluppo web.",
+    description: "I build the application using the latest technologies and best practices in web development.",
   },
   {
     title: "3. Deployment",
-    description: "Testo accuratamente l'applicazione e la distribuisco in tutto il mondo.",
+    description: "I thoroughly test the application and deploy it worldwide.",
   },
 ];

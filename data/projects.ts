@@ -10,22 +10,22 @@ interface IProject {
   link: string;
 }
 
-export const PROJECTS: IProject[] = [
+export const PROJECTS = [
   {
     title: "E-commerce platform",
-    description: "Una soluzione di e-commerce full-stack con React e Node.js",
+    description: "A full-stack e-commerce solution built with React and Node.js",
     image: EcommerceImg,
     link: "https://github.com/Andreaband",
   },
   {
     title: "Task management App",
-    description: "Un task manager basato su React con funzionalità di trascinamento della selezione",
+    description: "A React-based task manager with drag-and-drop functionality",
     image: TaskImg,
     link: "https://github.com/Andreaband",
   },
   {
     title: "Weather Dashboard",
-    description: "Un'app meteo che utilizza l'API OpenWeatherMap e React",
+    description: "A weather app using the OpenWeatherMap API and React",
     image: Weather,
     link: "https://github.com/Andreaband",
   },
