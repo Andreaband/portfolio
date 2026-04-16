@@ -14,7 +14,7 @@ export default function Home() {
     <main className="container flex justify-center flex-col items-center mx-auto p-4 ">
       {/* Hero */}
       <section className="flex flex-col justify-center items-center space-y-6 min-h-svh py-24">
-        <Image src={ProfilePic} alt="Matteo Peroni" width={200} height={200} className="size-[200px] object-cover rounded-full" />
+        <Image src={ProfilePic} alt="" width={200} height={200} className="size-[200px] object-cover rounded-full" />
         <div className="max-w-xl space-y-6">
           <h1 className="font-title text-center text-3xl">Hi 👋, I&apos;m Andrea Banducci</h1>
           <h2 className="title-gradient text-center text-6xl">Frontend Developer and Graphic Designer</h2>
